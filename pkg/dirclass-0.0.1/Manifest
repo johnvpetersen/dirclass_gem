@@ -1,0 +1,9 @@
+Manifest
+gem-public_cert.pem
+lib/dirclass.rb
+rakefile
+tests/dirclass_tests.rb
+tests/testdir/file_1.txt
+tests/testdir/file_2.txt
+tests/testdir/file_3.txt
+Rakefile

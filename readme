@@ -1,0 +1,19 @@
+dirclass_gem is an extension method for the Ruby Dir class.
+
+Currently, this gem has one method: list
+
+Usage:
+
+require 'dirclass'
+
+files = Dir.list
+
+files.each do |file|
+   puts file[:file], file[:date]
+end
+
+files = Dir.list :directory => '/projects', :pattern => '*.rb', :order = > 'DESC'
+
+
+
+
